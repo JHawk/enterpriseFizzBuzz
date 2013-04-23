@@ -1,0 +1,10 @@
+Test suite enterpriseUnit: RUNNING...
+Fizz Buzz Unit Test Cases:
+  should return empty string: [OK]
+
+         Test Cases  Total      
+ Passed  1           1          
+ Failed  0           0          
+ Total   1           1          
+Test suite enterpriseUnit: PASS
+Test suite logged to: dist/test/enterpriseFizzBuzz-0.1.0.0-enterpriseUnit.log

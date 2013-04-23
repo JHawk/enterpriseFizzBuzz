@@ -1,12 +1,14 @@
 Test suite enterpriseUnit: RUNNING...
 describing fizzbuzz:
-  should return empty string: [OK]
   should fail: [Failed]
-ERROR: Boom!
+expected: "not here"
+ but got: "Buzz"
+  should return 1: [OK]
+  should return Fizz: [OK]
 
          Test Cases  Total      
- Passed  1           1          
+ Passed  2           2          
  Failed  1           1          
- Total   2           2          
+ Total   3           3          
 Test suite enterpriseUnit: FAIL
 Test suite logged to: dist/test/enterpriseFizzBuzz-0.1.0.0-enterpriseUnit.log

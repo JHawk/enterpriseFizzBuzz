@@ -9,14 +9,15 @@ main = defaultMain fizzBuzzUnitTests
 fizzBuzzUnitTests = 
   [
     testGroup "describing fizzbuzz" [
-      testCase "should return empty string" zero_is_entered,
-      testCase "should fail" on_purpose
+      testCase "should fail" on_purpose,
+      testCase "should return 1" one_is_entered,
+      testCase "should return Fizz" three_is_entered
     ]
   ]
 
-zero_is_entered = fizzBuzz 0 @?= ""
+on_purpose = fizzBuzz 10 @?= "not here"
 
-on_purpose = error "Boom!"
+one_is_entered = fizzBuzz 1 @?= "1"
 
-
+three_is_entered = fizzBuzz 3 @?= "Fizz"
 

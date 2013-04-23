@@ -6,7 +6,7 @@ import System.Environment
 main = do
     putStrLn "How many numbers should I FizzBuzz."
     n <- getLine
-    putStrLn $ show $ fizzbuzz $ (read n :: Int)
+    putStrLn $ show $ fizzBuzz $ (read n :: Int)
 
 
 

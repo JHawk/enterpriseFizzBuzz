@@ -1,13 +1,12 @@
 Test suite enterpriseUnit: RUNNING...
 describing fizzbuzz:
-  should return empty string: [Failed]
-ERROR: Prelude.undefined
+  should return empty string: [OK]
   should fail: [Failed]
 ERROR: Boom!
 
          Test Cases  Total      
- Passed  0           0          
- Failed  2           2          
+ Passed  1           1          
+ Failed  1           1          
  Total   2           2          
 Test suite enterpriseUnit: FAIL
 Test suite logged to: dist/test/enterpriseFizzBuzz-0.1.0.0-enterpriseUnit.log

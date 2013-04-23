@@ -14,7 +14,7 @@ fizzBuzzUnitTests =
     ]
   ]
 
-zero_is_entered = fizzbuzz 0 @?= ""
+zero_is_entered = fizzBuzz 0 @?= ""
 
 on_purpose = error "Boom!"
 

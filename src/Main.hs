@@ -4,9 +4,9 @@ import Enterprise.FizzBuzz
 import System.Environment
 
 main = do
-    putStrLn "How many numbers should I FizzBuzz."
+    putStrLn "How many numbers should I FizzBuzz?"
     n <- getLine
-    putStrLn $ show $ fizzBuzz $ (read n :: Int)
+    putStrLn $ show $ fizzBuzzRange $ (read n :: Int)
 
 
 

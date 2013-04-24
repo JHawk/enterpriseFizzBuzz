@@ -7,10 +7,3 @@
   (major1) == 4 && (major2) <  5 || \
   (major1) == 4 && (major2) == 5 && (minor) <= 1)
 
-/* package criterion-0.6.2.1 */
-#define VERSION_criterion "0.6.2.1"
-#define MIN_VERSION_criterion(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  6 || \
-  (major1) == 0 && (major2) == 6 && (minor) <= 2)
-

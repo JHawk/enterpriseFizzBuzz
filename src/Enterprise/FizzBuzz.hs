@@ -1,4 +1,4 @@
-module Enterprise.FizzBuzz (fizzBuzz) where
+module Enterprise.FizzBuzz (fizzBuzz, fizzBuzzRange) where
 
 -- courtesy of Mike Bethany @ Haskell Quiz
 -- http://www.haskell.org/haskellwiki/Haskell_Quiz/FizzBuzz/Solution_Mikbe
@@ -13,3 +13,8 @@ fizzBuzz x = if fizz(x) ++ buzz(x) == ""
   then show x 
   else fizz(x) ++ buzz(x)
 
+fizzBuzzRange :: Int -> String
+fizzBuzzRange limit = 
+  foldl fizzJoin "" [1..limit]
+  
+  where fizzJoin acc i =  acc ++ " " ++ fizzBuzz i 

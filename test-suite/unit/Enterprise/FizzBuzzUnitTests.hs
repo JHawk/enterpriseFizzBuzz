@@ -18,6 +18,6 @@ fizzBuzzUnitTests =
   ]
 
 on_purpose = fizzBuzz 10 @?= "not here"
-one_is_entered = fizzBuzz 1 @?= "1"
-three_is_entered = fizzBuzz 3 @?= "Fizz"
+one_is_entered = "1" @=? fizzBuzz 1
+three_is_entered = assertEqual "checking that Fizz works" "Fizz" $ fizzBuzz 3
 

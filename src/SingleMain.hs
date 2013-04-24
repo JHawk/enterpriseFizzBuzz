@@ -8,3 +8,6 @@ main = do
     n <- getLine
     putStrLn $ show $ fizzBuzz $ (read n :: Int)
 
+
+
+

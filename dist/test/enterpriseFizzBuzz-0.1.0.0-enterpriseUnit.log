@@ -1,8 +1,9 @@
 Test suite enterpriseUnit: RUNNING...
-describing fizzbuzz:
+showing a fizzbuzz fail:
   should fail: [Failed]
 expected: "not here"
  but got: "Buzz"
+showing fizzbuzz pass:
   should return 1: [OK]
   should return Fizz: [OK]
 
